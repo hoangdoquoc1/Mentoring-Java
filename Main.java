@@ -5,13 +5,13 @@ public class Main {// lớp Main
 
 	public static void main(String[] args)
     {
-        //Person là tên class
-        //khanh là tên biến
-        //new là cú pháp để khởi tạo đối tượng mới
-        //Person là hàm khởi tạo đối tượng
-        // Person khanh = new Person("Khanh", 22, LocalDate.of(2003, 7, 21));
-        // System.out.println(khanh.toString());
-        // //hình cầu bằng thạch cao, 100 cm, màu vàng
+        // Person là tên class
+        // khanh là tên biến
+        // new là cú pháp để khởi tạo đối tượng mới
+        // Person là hàm khởi tạo đối tượng
+        Person khanh = new Person("Khanh", 22, LocalDate.of(2003, 7, 21));
+        System.out.println(khanh.toString());
+        //hình cầu bằng thạch cao, 100 cm, màu vàng
         System.out.println("Quản lý sản xuất tượng ");
         Scanner sc = new Scanner(System.in);
         System.out.print("Hay nhap hinh dang: ");
