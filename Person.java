@@ -39,3 +39,4 @@ public class Person {
         return this.Name + " is " + this.Age + " because he/she was born in " + this.DateOfBirth;
     }
 }
+//tạo 1 class car, vehicle, 
